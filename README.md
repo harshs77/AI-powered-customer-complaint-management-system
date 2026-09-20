@@ -5,30 +5,29 @@ AI-Powered Customer Complaint Management System is a web-based application desig
 ## Architecture
 
 ``
-                    React + Redux
-                         │
-                         │ HTTP / Axios
-                         ▼
-                    FastAPI Backend
-                         │
-              ┌──────────┴──────────┐
-              │                     │
-              ▼                     ▼
-         LangGraph AI           MySQL
-              │
-      ┌───────┼────────┐
-      ▼       ▼        ▼
-   Extract  Risk    Summary
-      │       │        │
-      └───────┼────────┘
-              ▼
-          Groq / Gemma
-              │
-              ▼
-       Structured AI Result
-              │
-              ▼
-        React / Redux UI
+                      A[React + Redux] -->|HTTP / Axios| B[FastAPI Backend]
+
+    B --> C[LangGraph AI]
+    B --> D[(MySQL Database)]
+
+    C --> E[Extract]
+    C --> F[Risk Analysis]
+    C --> G[Summary]
+
+    E --> H[Groq / Gemma]
+    F --> H
+    G --> H
+
+    H --> I[Structured AI Result]
+
+    I --> A
+
+    style A fill:#61DAFB,stroke:#333,color:#000
+    style B fill:#009688,stroke:#333,color:#fff
+    style C fill:#8B5CF6,stroke:#333,color:#fff
+    style D fill:#4479A1,stroke:#333,color:#fff
+    style H fill:#F97316,stroke:#333,color:#fff
+    style I fill:#22C55E,stroke:#333,color:#fff
 
 ## Main Components
 
