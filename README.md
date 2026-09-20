@@ -4,7 +4,7 @@ AI-Powered Customer Complaint Management System is a web-based application desig
 
 ## Architecture
 
-``
+```meramaid
                       A[React + Redux] -->|HTTP / Axios| B[FastAPI Backend]
 
     B --> C[LangGraph AI]
@@ -28,6 +28,7 @@ AI-Powered Customer Complaint Management System is a web-based application desig
     style D fill:#4479A1,stroke:#333,color:#fff
     style H fill:#F97316,stroke:#333,color:#fff
     style I fill:#22C55E,stroke:#333,color:#fff
+```
 
 ## Main Components
 
