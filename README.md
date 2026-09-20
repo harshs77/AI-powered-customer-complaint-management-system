@@ -5,7 +5,8 @@ AI-Powered Customer Complaint Management System is a web-based application desig
 ## Architecture
 
 ```mermaid
-                      A[React + Redux] -->|HTTP / Axios| B[FastAPI Backend]
+flowchart TD
+    A[React + Redux] -->|HTTP / Axios| B[FastAPI Backend]
 
     B --> C[LangGraph AI]
     B --> D[(MySQL Database)]
