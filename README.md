@@ -1,6 +1,6 @@
 # AI-powered-customer-complaint-management-system
 
-**AIVOA AI-Powered Customer Complaint Management System is a web-based application designed for managing pharmaceutical customer complaints. It uses React and Redux for the frontend, FastAPI for backend APIs, LangGraph and Groq LLMs for complaint extraction, completeness checking, risk assessment, and summarization, and MySQL for storing complaint records. Users can upload or enter complaint information, receive AI-assisted analysis, review the extracted details and risk assessment, and save the complaint for future tracking.
+AI-Powered Customer Complaint Management System is a web-based application designed for managing pharmaceutical customer complaints. It uses React and Redux for the frontend, FastAPI for backend APIs, LangGraph and Groq LLMs for complaint extraction, completeness checking, risk assessment, and summarization, and MySQL for storing complaint records. Users can upload or enter complaint information, receive AI-assisted analysis, review the extracted details and risk assessment, and save the complaint for future tracking.
 
 ## Architecture
 
