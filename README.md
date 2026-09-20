@@ -64,17 +64,14 @@ flowchart TD
 
 ## Core API Endpoints
 
-
-GET/health
-GET/api/complaints
-GET    /api/complaints/{id}
-
-POST   /api/complaints/analyze-text
-POST   /api/complaints/analyze-file
-POST   /api/complaints
-
-PUT    /api/complaints/{id}
-DELETE /api/complaints/{id}
+GET     /health
+GET     /api/complaints
+GET     /api/complaints/{id}
+POST    /api/complaints/analyze-text
+POST    /api/complaints/analyze-file
+POST    /api/complaints
+PUT     /api/complaints/{id}
+DELETE  /api/complaints/{id}
 
 ## Backend Installation
 
